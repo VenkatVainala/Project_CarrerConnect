@@ -1,0 +1,141 @@
+/* src/pages/Community/CommunityPage.css */
+.community-container {
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.community-container h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+/* New Post Form Styles */
+.post-form {
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.post-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.post-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  font-size: 1rem;
+}
+
+.post-form .btn {
+  align-self: flex-end;
+  padding: 0.75rem 1.5rem;
+  background-color: #6a1b9a;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.post-form .btn:hover {
+  background-color: #ab47bc;
+}
+
+/* Button Group */
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.btn-discussion,
+.btn-mentor {
+  background-color: #ffd54f;
+  color: #333;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-discussion:hover,
+.btn-mentor:hover {
+  background-color: #f9c74f;
+}
+
+/* Search Input */
+.search-input {
+  margin-bottom: 1rem;
+}
+
+.search-input input {
+  width: 80%;
+  max-width: 400px;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.tabs button {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  color: #333;
+}
+
+.tabs button.active {
+  border-bottom: 2px solid var(--primary-color);
+  font-weight: bold;
+}
+
+/* Discussion Cards */
+.discussions {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.discussion-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: left;
+  transition: box-shadow 0.3s ease;
+}
+
+.discussion-card:hover {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.discussion-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: #6a1b9a;
+}
+
+.discussion-card p {
+  font-size: 0.95rem;
+  color: #555;
+}

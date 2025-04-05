@@ -1,0 +1,89 @@
+/* src/pages/Profile/ProfilePage.css */
+.profile-page {
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.profile-page h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.lock-message {
+  text-align: center;
+  color: green;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.profile-form {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.btn-primary {
+  background-color: #6a1b9a;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #ab47bc;
+}
+
+.btn-secondary {
+  background-color: #ffd54f;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background-color: #f9c74f;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .profile-page {
+    padding: 1rem;
+  }
+  .profile-form {
+    padding: 1rem;
+  }
+}
